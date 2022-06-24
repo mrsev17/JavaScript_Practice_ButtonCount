@@ -3,7 +3,7 @@
 
 
 
-let counter = 0;
+let counter = 1;
 
 function add_count() {
     let integer = (() => {
