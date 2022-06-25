@@ -10,7 +10,7 @@ function add_count() {
         return counter++;
     });
     let tag = document.createElement("p");
-    let text;
+    let text = null;
     text = document.createTextNode(integer());
     tag.appendChild(text);
     let element = document.getElementsByTagName("body")[0];
